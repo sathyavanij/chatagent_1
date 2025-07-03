@@ -51,7 +51,8 @@ export class SettingsService {
 
         return settings;
       } else {
-        throw new Error('Supabase not configured');
+        console.warn('Supabase not configured, loading settings from localStorage');
+        return this.loadSettingsFromLocalStorage();
       }
     } catch (error) {
       console.error('Error loading settings from Supabase:', error);
