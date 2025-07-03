@@ -1,0 +1,6 @@
+Form Configuration Database
+Sheet1: Form_Fields
+Columns: Form_ID, Field_ID, Field_Type, Label, Placeholder, Required, Options, Validation_Pattern, Validation_Message
+
+Sheet2: Custom_QA
+Columns: ID, Question_Keywords, Response_Text, Category, Is_Form, Form_ID, Created_Date, Active

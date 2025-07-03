@@ -1,0 +1,9 @@
+Form Submissions Database
+Sheet: Submissions
+Columns: ID, Form_Type, Submission_Date, Submission_Time, Name, Email, Phone, Company, Message, User_Agent
+
+Sample Data:
+ID,Form_Type,Submission_Date,Submission_Time,Name,Email,Phone,Company,Message,User_Agent
+sub_001,Contact Information,12/20/2024,10:30:00 AM,John Doe,john@example.com,555-0123,Acme Corp,Hello I'm interested in your services,Mozilla/5.0
+sub_002,Feedback Form,12/20/2024,11:15:00 AM,Jane Smith,jane@example.com,555-0456,Tech Solutions,Great service!,Mozilla/5.0
+sub_003,Survey Form,12/20/2024,02:45:00 PM,Bob Johnson,bob@example.com,555-0789,StartupXYZ,Looking forward to improvements,Mozilla/5.0
